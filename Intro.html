@@ -338,16 +338,19 @@
         <h3><u>HTML Elements</u></h3>
         <hr>
         <p>
-            The HTML element is a fundamental building block of an HTML document. It is a combination of an <b>opening tag, content, </b> and a <b>closing tag</b> (optional for some elements).
+            The HTML element is a fundamental building block of an HTML document. It is a combination of an <b>opening
+                tag, content, </b> and a <b>closing tag</b> (optional for some elements).
         </p>
 
         <p>
             An HTML element consists of following parts:
-            <ol type="i">
-                <li><b>Opening Tag: </b>Marks the beginning of the element. It is enclosed in angle brackets, e.g., <code>&lt;tag-name&gt;</code>.</li>
-                <li><b>Content: </b>The actual content enclosed by the element.</li>
-                <li><b>Closing Tag: </b>Marks the end of the element. It is similar to the opening tag but includes a forward slash (/), e.g., <code>&lt;/tag-name&gt;</code></li>
-            </ol>
+        <ol type="i">
+            <li><b>Opening Tag: </b>Marks the beginning of the element. It is enclosed in angle brackets, e.g.,
+                <code>&lt;tag-name&gt;</code>.</li>
+            <li><b>Content: </b>The actual content enclosed by the element.</li>
+            <li><b>Closing Tag: </b>Marks the end of the element. It is similar to the opening tag but includes a
+                forward slash (/), e.g., <code>&lt;/tag-name&gt;</code></li>
+        </ol>
         </p>
         <p style="text-align: center;">
             <code>&lt;tag-name&gt;Content goes here&lt;;tag-name&gt;</code>
@@ -355,81 +358,105 @@
         <hr>
         <h2>Types of HTML Elements</h2>
         <p>
-            <ol>
-                <p><li><strong>Block-level Elements: </strong>these elements create a block on the page, often causing content to appear on a new line. They typically define larger sections of a page, like paragraphs or divider. Example: <code>&lt;div&gt;, &lt;p&gt;, &lt;h1&gt;, &lt;ul&gt;.</code></li></p>
-                <p><li><strong>Inline Elements: </strong>These elements do not start on a new line; they flow within the content. They usually define smaller sections, like text or links. Examples: <code>&lt;span&gt;, &lt;strong&gt;, &lt;em&gt;.</code></li></p>
-                <p><li><strong>Self-closing Elements: </strong>These elements don't have a closing tag. Instead, they are self-contained in the opening tag. Examples: <code>&lt;img&gt;, &lt;br&gt;, &lt;hr&gt;, &lt;input&gt;, &lt;meta&gt;</code></li></p>
-            </ol>
+        <ol>
+            <p>
+                <li><strong>Block-level Elements: </strong>these elements create a block on the page, often causing
+                    content to appear on a new line. They typically define larger sections of a page, like paragraphs or
+                    divider. Example: <code>&lt;div&gt;, &lt;p&gt;, &lt;h1&gt;, &lt;ul&gt;.</code></li>
+            </p>
+            <p>
+                <li><strong>Inline Elements: </strong>These elements do not start on a new line; they flow within the
+                    content. They usually define smaller sections, like text or links. Examples:
+                    <code>&lt;span&gt;, &lt;strong&gt;, &lt;em&gt;.</code></li>
+            </p>
+            <p>
+                <li><strong>Self-closing Elements: </strong>These elements don't have a closing tag. Instead, they are
+                    self-contained in the opening tag. Examples:
+                    <code>&lt;img&gt;, &lt;br&gt;, &lt;hr&gt;, &lt;input&gt;, &lt;meta&gt;</code></li>
+            </p>
+        </ol>
         </p>
         <hr>
         <h2>Common HTML Elements</h2>
         <p>
-            <ol>
-                <p><li><code>&lt;html&gt;: </code> Represents the entire HTML document.</li>
-                <p style="text-align: center;">
-                    <pre><code>
+        <ol>
+            <p>
+                <li><code>&lt;html&gt;: </code> Represents the entire HTML document.</li>
+            <p style="text-align: center;">
+            <pre><code>
                         &lt;html&gt;
                             &lt;!-- Content goes here --&gt;
                         &lt;/html&gt;
                     </code></pre>
-                </p>
-                </p>
-                <p><li><code>&lt;head&gt;: </code>Contains meta-information about the document, such as title, character set, and links to stylesheets ro scripts.</li>
-                <p>
-                    <pre><code style="text-align: center;">
+            </p>
+            </p>
+            <p>
+                <li><code>&lt;head&gt;: </code>Contains meta-information about the document, such as title, character
+                    set, and links to stylesheets ro scripts.</li>
+            <p>
+            <pre><code style="text-align: center;">
                         &lt;head&gt;
                             &lt;meta charset="UTF-8"&gt;
                             &lt;title&gt;Page Title&lt;/title&gt;
                         &lt;/head&gt;
                     </code></pre>
-                </p>
-                <p><li><code>&lt;title&gt;: </code>Specifies the title of the web page, whcih appears in the browser's title bar or tab.</li>
-                <p>
-                    <pre><code style="text-align: center;">
+            </p>
+            <p>
+                <li><code>&lt;title&gt;: </code>Specifies the title of the web page, whcih appears in the browser's
+                    title bar or tab.</li>
+            <p>
+            <pre><code style="text-align: center;">
                         &lt;title&gt;My Webpage&lt;/title&gt;
                     </code></pre>
-                </p>
+            </p>
 
-                <p>
-                    <li><code>&lt;body&gt;: </code>Contains the content of the web page, such as text, images, links, etc.</li>
-                    <p><pre><code style="text-align: center">
+            <p>
+                <li><code>&lt;body&gt;: </code>Contains the content of the web page, such as text, images, links, etc.
+                </li>
+            <p>
+            <pre><code style="text-align: center">
                         &lt;body&gt;
                             &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
                             &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
                         &lt;/body&gt;
                     </code></pre>
-                </p></p>
+            </p>
+            </p>
 
-                <p><li><code>&lt;h1&gt; to &lt;h6&gt;: </code>Define headings of different levels/size. &lt;h1&gt; is the highest (most important) level, and &lt;h6&gt; is the lowest.</li>
-                <p>
-                    <pre><code style="text-align: center;">
+            <p>
+                <li><code>&lt;h1&gt; to &lt;h6&gt;: </code>Define headings of different levels/size. &lt;h1&gt; is the
+                    highest (most important) level, and &lt;h6&gt; is the lowest.</li>
+            <p>
+            <pre><code style="text-align: center;">
                         &lt;h1&gt;This is a heading level 1&lt;/h1&gt;
                         &lt;h2&gt;This is a heading level 2&lt;/h2&gt;
                     </code></pre>
-                </p>
-                </p>
+            </p>
+            </p>
 
-                <p><li><code>&lt;p&gt;: </code>Defines a paragraph.</li>
-                <p>
-                    <pre><code style="text-align: center;">
+            <p>
+                <li><code>&lt;p&gt;: </code>Defines a paragraph.</li>
+            <p>
+            <pre><code style="text-align: center;">
                         &lt;p&gt;This is a paragraph of text.&lt;p&gt;
                     </code></pre>
-                    </p>
-                </p>
+            </p>
+            </p>
 
-                <p>
-                    <li><code>&lt;a&gt;: </code>Defines a hyperlink.</li>
-                    <p>
-                        <pre><code style="text-align: center;">
+            <p>
+                <li><code>&lt;a&gt;: </code>Defines a hyperlink.</li>
+            <p>
+            <pre><code style="text-align: center;">
                             &lt;a href="https://www.example.com"&gt;Click here&lt;/a&gt;
                         </code></pre>
-                    </p>
-                </p>
+            </p>
+            </p>
 
-                <p>
-                    <li><code>&lt;ul&gt; and &lt;ol&gt;: </code>Define unordered (bulleted) and ordered (numbered) lists, repectively.</li>
-                    <p>
-                        <pre><code style="text-align: center;">
+            <p>
+                <li><code>&lt;ul&gt; and &lt;ol&gt;: </code>Define unordered (bulleted) and ordered (numbered) lists,
+                    repectively.</li>
+            <p>
+            <pre><code style="text-align: center;">
                             &lt;ul&gt;
                                 &lt;li&gt;Item 1&lt;/&gt;
                                 &lt;li&gt;Item 2&lt;/&gt;
@@ -440,54 +467,59 @@
                                 &lt;li&gt;Second Item&lt;/&gt;
                             &lt;/ol&gt;
                         </code></pre>
-                    </p>
-                </p>
-                
-                <p>
-                    <li><code>&lt;img&gt;: </code>Embeds an image in the document. It's self-closing and requires an <code>src</code> attribute for the image source.</li>
-                    <p>
-                        <pre><code style="text-align: center;">
+            </p>
+            </p>
+
+            <p>
+                <li><code>&lt;img&gt;: </code>Embeds an image in the document. It's self-closing and requires an
+                    <code>src</code> attribute for the image source.</li>
+            <p>
+            <pre><code style="text-align: center;">
                             &lt;img src="image.jpg" alt="Description of image"&gt;
                         </code></pre>
-                    </p>
-                </p>
+            </p>
+            </p>
 
-                <p>
-                    <li><code>&lt;div&gt;: </code>A generic container element, often used for grouping or styling content.</li>
-                    <p>
-                        <pre><code style="text-align: center;">
+            <p>
+                <li><code>&lt;div&gt;: </code>A generic container element, often used for grouping or styling content.
+                </li>
+            <p>
+            <pre><code style="text-align: center;">
                             &lt;div&gt;
                                 &lt;p&gt;This is inside a div element.&lt;/p&gt;
                             &lt;/div&gt;
                         </code></pre>
-                    </p>
-                </p>
+            </p>
+            </p>
 
-                <p>
-                    <li><code>&lt;span&gt;: </code>An inline container used to style a part of the content without affecting its layout.</li>
-                    <p>
-                        <pre><code style="text-align: center;">
-                            &lt;span style="color: red;"&gt;<p style="text-decoration-color: red">This is red text.</p>&lt;/span&gt;
+            <p>
+                <li><code>&lt;span&gt;: </code>An inline container used to style a part of the content without affecting
+                    its layout.</li>
+            <p>
+            <pre><code style="text-align: center;">
+                            &lt;span style="color: red;"&gt;<span style="color: red">This is red text.</span>&lt;/span&gt;
                         </code></pre>
-                    </p>
-                </p>
+            </p>
+            </p>
 
-                <p>
-                    <li><code>&lt;form&gt;: </code>Defines an HTML form for collecting user input.</li>
-                    <p>
-                        <pre><code style="text-align: center;">
+            <p>
+                <li><code>&lt;form&gt;: </code>Defines an HTML form for collecting user input.</li>
+            <p>
+            <pre><code style="text-align: center;">
                             &lt;form action="/submit" method="POST"&gt;
                                 &lt;input type="text" name="username"&gt;
                                 &lt;input type="submit" value="Submit"&gt;
                             &lt;/form&gt;
                         </code></pre>
-                    </p>
-                </p>
+            </p>
+            </p>
 
-                <p>
-                    <li><code>&lt;table&gt;: </code>Defines a table. Inside it, your can have <code>&lt;tr&gt;</code> (table rows), <code>&lt;td&gt;</code> (table data cells), and <code>&lt;th&gt;</code> (table header cells).</li>
-                    <p>
-                        <pre><code style="text-align: center;">
+            <p>
+                <li><code>&lt;table&gt;: </code>Defines a table. Inside it, your can have <code>&lt;tr&gt;</code> (table
+                    rows), <code>&lt;td&gt;</code> (table data cells), and <code>&lt;th&gt;</code> (table header cells).
+                </li>
+            <p>
+            <pre><code style="text-align: center;">
                             &lt;table&gt;
                                 &lt;tr&gt;
                                     &lt;th&gt;Header 1&lt;/th&gt;
@@ -499,9 +531,9 @@
                                 &lt;/tr&gt;
                             &lt;/table&gt;
                         </code></pre>
-                    </p>
-                </p>
-            </ol>
+            </p>
+            </p>
+        </ol>
         </p>
     </section>
 </body>
