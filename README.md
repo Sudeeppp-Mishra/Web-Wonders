@@ -1,4 +1,4 @@
-# Web-Development Learning Repo
+# Web-Development Learning Repository
 This repository contains my learning projects for Web Development. It includes simple HTML projects (that I used for practicing my skills), and will later include CSS and JavaScript projects as I progress.
 
 ## Installation
@@ -7,8 +7,9 @@ To view or run the projects:
 2. Open the project folder in your browser.
 
 ## Usage
-1. Open the `.html` file in any browser to see the results.
-2. Edit the files as needed to experiment with the code.
+1. Clone this repository: `git clone https://github.com/Sudeepp-Mishra/Web-Development.git
+2. Open the `.html` file in any browser to see the results.
+3. Edit the files as needed to experiment with the code.
 
 ## Contributing
 1. Fork the repo
