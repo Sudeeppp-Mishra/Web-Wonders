@@ -7,7 +7,7 @@ To view or run the projects:
 2. Open the project folder in your browser.
 
 ## Usage
-1. Clone this repository: `git clone https://github.com/Sudeepp-Mishra/Web-Development.git
+1. Clone this repository: `git clone https://github.com/Sudeepp-Mishra/Web-Development.git`
 2. Open the `.html` file in any browser to see the results.
 3. Edit the files as needed to experiment with the code.
 
