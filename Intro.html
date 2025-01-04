@@ -1,55 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Index</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+</head>
+
+<body>
+    <section id="Top">
         <hr>
-        <h1 style="text-align: center;">HTML INTRODUCTION</h1>
+        <h1 style="text-align: center;">HTML</h1>
         <hr>
+    </section>
 
-        <ol type="I">
-        <h2><li>What is HTML?</li></h2>
+    <h2><i>Table of Contents</i></h2>
+    <ul>
+        <li><a href="#Section1">HTML Introduction</a></li>
+        <li><a href="#Section2">HTML Basics</a></li>
+        <li><a href="#Section3">HTML Elements</a></li>
+    </ul>
+
+    <section id="Section1">
         <hr>
-        <label>
-        <ul>
-            <li>HTML is abbreviated form of <i><b>"Hyper Text Markup Language"</b></b></i></li>
-            <li>It is the standard markup language to create and design webpages and web applications</li>
-            <li>It structures content on the web by using a system of tags and attributes. These tags tell the web browser how to display elements like text, images, links, tables, and multimedia.</li>
-        </ul>
-    </label>
-    <hr>
-
-    <label>
-        <h2><li>Key Concepts of HTML</li></h2>
+        <h3><u>HTML Introduction</u></h3>
         <hr>
+        <ol type="I"> <!-- here type="I" will be creating an ordered list with roman numbering -->
+            <h2>
+                <li>What is HTML?</li>
+            </h2>
+            <hr>
 
-        <ol>
-            <li>
-                <p>
-                <strong>Tags: </strong>HTML use <b>tags</b> (also called elements) to structure the content. tags are enclosed in angle brackets (&lt; &gt;). Tags typically come in pairs: an opening tag and a closing tag. For example:
-            <ul>
-                <li><code>&lt;h1&gt;</code> opening tag for large heading </li>
-                <li><code>&lt;/h1&gt;</code> for closing the heading tag</li>
-            </ul>
-            
-            <p></p>Basically, we will be writing tag name inside &lt; &gt; for opening the tag and if we want to close it then we will be writing the tage name inside &lt;/ &gt; i.e., the closing tag is marked by a forwad slash (/).</p>
+            <!-- Introduction Starts -->
+            <label>
+                <ul>
+                    <li>HTML is abbreviated form of <i><b>"Hyper Text Markup Language"</b></b></i></li>
+                    <li>It is the standard markup language to create and design webpages and web applications</li>
+                    <li>It structures content on the web by using a system of tags and attributes. These tags tell the
+                        web
+                        browser how to display elements like text, images, links, tables, and multimedia.</li>
+                </ul>
+            </label>
+            <!-- Introduction Ends -->
+            <hr>
 
-            </p></li><hr>
+            <!-- Key Conepts Starts -->
+            <label>
+                <h2>
+                    <li>Key Concepts of HTML</li>
+                </h2>
+                <hr>
 
-            <li><p><strong>Attributes:</strong> tags can have <b>attributes</b> that provide additional information about the element. Attributes are written within the opening tag. For example:
-            <ul>
-                <li><code>&lt;a href="https://example.com"&gt;Click Here&lt;a&gt;</code></li>
-            </ul>
-            <p>In this case, <code>href</code> is an attribute that specifies the link destination.</p>
-            </p></li><hr>
+                <ol>
+                    <li>
+                        <p>
+                            <strong>Tags: </strong>HTML use <b>tags</b> (also called elements) to structure the content.
+                            tags are enclosed in angle brackets (&lt; &gt;). Tags typically come in pairs: an opening
+                            tag
+                            and a closing tag. For example:
+                            <!-- Here &lt; and &gt; are escape characters for less than (< i.e., &lt;) and greater than (> i.e., &gt;) -->
+                        <ul>
+                            <li><code>&lt;h1&gt;</code> opening tag for large heading </li>
+                            <li><code>&lt;/h1&gt;</code> for closing the heading tag</li>
+                        </ul>
 
-            <li>
-                <p><strong>Document Structure: </strong>A basic HTML document typically follows this following structure: </p>
+                        <p></p>Basically, we will be writing tag name inside &lt; &gt; for opening the tag and if we
+                        want to
+                        close it then we will be writing the tage name inside &lt;/ &gt; i.e., the closing tag is marked
+                        by
+                        a forwad slash (/).</p>
 
-            <pre><code>
+                        </p>
+                    </li>
+                    <hr>
+
+                    <li>
+                        <p><strong>Attributes:</strong> tags can have <b>attributes</b> that provide additional
+                            information
+                            about the element. Attributes are written within the opening tag. For example:
+                        <ul>
+                            <li><code>&lt;a href="https://example.com"&gt;Click Here&lt;a&gt;</code></li>
+                        </ul>
+                        <p>In this case, <code>href</code> is an attribute that specifies the link destination.</p>
+                        </p>
+                    </li>
+                    <hr>
+
+                    <li>
+                        <p><strong>Document Structure: </strong>A basic HTML document typically follows this following
+                            structure: </p>
+
+                        <pre><code>
                 &lt;!DOCTYPE html&gt;
                 &lt;html lang="en"&gt;
                     &lt;head&gt;
@@ -64,73 +105,405 @@
                 &lt;/html&gt;
                 </code></pre>
 
-                <h4><u>Structure Explained:</u></h4>
-                <ol>
-                    <p>
-                    <code><li>&lt;!DOCTYPE HTML&gt;</li></code>
-                    
-                    <ul>
-                        <li>Declares the document type.</li>
-                        <li>Tells the browser that the file uses <b>HTML5</b> (the current standard for HTML).</li>
-                        <li>Ensures the browser renders the page in <b>standards mode.</b></li>
-                    </ul>
-                    </p>
+                        <h4><u>Structure Explained:</u></h4>
+                        <ol>
+                            <p>
+                                <code><li>&lt;!DOCTYPE HTML&gt;</li></code>
 
-                    <p>
-                    <code><li>&lt;html lang="en"&gt;</li></code>
-                    <ul>
-                        <li><code></code>&lt;html&gt;:</code> The root element of the HTML document. It contains all the content of the webpage.</li>
-                       
-                        <li><code>lang="en": </code>Specifies teh language of teh document as English. This is useful for:
+                            <ul>
+                                <li>Declares the document type.</li>
+                                <li>Tells the browser that the file uses <b>HTML5</b> (the current standard for HTML).
+                                </li>
+                                <li>Ensures the browser renders the page in <b>standards mode.</b></li>
+                            </ul>
+                            </p>
+
+                            <p>
+                                <code><li>&lt;html lang="en"&gt;</li></code>
+                            <ul>
+                                <li><code></code>&lt;html&gt;:</code> The root element of the HTML document. It contains
+                                    all
+                                    the content of the webpage.</li>
+
+                                <li><code>lang="en": </code>Specifies teh language of teh document as English. This is
+                                    useful for:
+                                    <p>
+                                    <ul style="list-style-type: circle;">
+                                        <li>Search Engines.</li>
+                                        <li>Accessibility tools like screen readers.</li>
+                                    </ul>
+                                    </p>
+                                </li>
+                            </ul>
+                            </p>
+
+                            <p>
+                                <li><code>&lt;head&gt;</code></li>
+                            <ul>
+                                <li>Contains metadata (It is the info. that provides details about other data. In HTML,
+                                    it
+                                    refers to data about the webpage that helps borwsers, search engines, and other
+                                    tools to
+                                    understand the page better.) and settings for the document.</li>
+                                <li>Metadata is not displayed on the webpage but provides information about the page
+                                    (e.g.,
+                                    title, character encoding, viewport settings).</li>
+                            </ul>
+                            </p>
+
+                            <p>
+                                <li><code>&lt;meta charset="UTF-8"&gt;</code></li>
+                            <ul>
+                                <li>Specifies the character encoding for the document.</li>
+                                <li><b>UTF-8</b> supports a wide range of characters, including special symbols and
+                                    international scripts.</li>
+                            </ul>
+                            </p>
+
+                            <p>
+                                <li><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>
+                                </li>
+                            <ul>
+                                <li>Helps make the webpage <b>reponsive</b> on different devices (like desktops,
+                                    tablets,
+                                    and phones).</li>
+                                <li><code>width=device-width: </code> Sets the width of the page to match te device's
+                                    screen
+                                    size.</li>
+                                <li><code>initial-scale=1.0: </code>Ensures the page's content is displayed at 100% zoom
+                                    initially.</li>
+                            </ul>
+                            </p>
+
+                            <p>
+                                <li><code>&lt;title&gt;Page Title&lt;/title&gt;</code></li>
+                            <ul>
+                                <li>Specifies teh title of the webpage.</li>
+                                <li>The title appears: </li>
+                                <ul style="list-style-type: circle;">
+                                    <li>In the browser's title bar or tab.</li>
+                                    <li>As the clickable headline in search engine results.</li>
+                                </ul>
+                            </ul>
+                            </p>
+
+                            <p>
+                                <li><code>&lt;body&gt;</code></li>
+                            <ul>
+                                <li>Contains the main content of the webpage that will be displayed in the browser.</li>
+                                <li>All visible elements (like headings, paragraphs, images, and links) go inside this
+                                    tag.
+                                </li>
+                            </ul>
+                            </p>
+
+                            <p>
+                                <li><code>&lt;h1&gt;Welcome to My Website&lt;/h1&gt;</code></li>
+                            <ul>
+                                <li><code>&lt;h1&gt;: </code>Teh largest and most important heading (Heading Level 1).
+                                </li>
+                                <li>Used to represent the main title of the page.</li>
+                                <li>Helps with <b>SEO</b> (Search Engine Optimization) by signalling the primary topic
+                                    of
+                                    the page.</li>
+                            </ul>
+                            </p>
+
+                            <p>
+                                <li><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></li>
+                            <ul>
+                                <li><code>&lt;p&gt;: </code>Represents a paragraph of text.</li>
+                                <li>Used to display blocks of content.</li>
+                                <li>Automatically creates some space above and below the text for readability.</li>
+                            </ul>
+                            </p>
+
+                        </ol>
+                        </p>
+                        <p>We will be later talking about these tags and elements in deep that has been used in this
+                            example.</p>
+                    </li>
+                    <hr>
+
+                    <li>
+                        <p><strong>Elements: </strong>An <b>HTML element</b> consists of an opening tag, content, and a
+                            closing tag. For example:</p>
                         <p>
-                            <ul style="list-style-type: circle;">
-                                <li>Search Engines.</li>
-                                <li>Accessibility tools like screen readers.</li>
-                            </ul> 
+                            <code>&lt;p&gt;This is paragraph.&lt;p&gt;</code> represents a paragraph element.
                         </p>
                     </li>
-                    </ul>
-                    </p>
+                    <hr>
 
-                    <li><code>&lt;head&gt;</code></li>
-                    <ul>
-                        <li>Contains metadata (It is the info. that provides details about other data. In HTML, it refers to data about the webpage that helps borwsers, search engines, and other tools to understand the page better.) and settings for the document.</li>
-                        <li>Metadata is not displayed on the webpage but provides information about the page (e.g., title, character encoding, viewport settings).</li>
-                    </ul>
+                    <li>
+                        <p><strong>Semantic HTML: </strong>HTML 5 introduced <b>semantic elements</b> that provide
+                            meaning
+                            about the content, such as:</p>
+                        <p>
+                        <ul>
+                            <li><code>&lt;header&gt;</code> defines a header section.</li>
+                            <li><code>&lt;footer&gt;</code> defines a footer section.</li>
+                            <li><code>&lt;article&gt;</code> defines an independent piece of content, such as a blog
+                                post.
+                            </li>
+                        </ul>
+                        </p>
+                    </li>
+                    <hr>
 
-                    <li><code>&lt;meta charset="UTF-8"&gt;</code></li>
-                    <ul>
-                        <li>Specifies the character encoding for the document.</li>
-                        <li><b>UTF-8</b> supports a wide range of characters, including special symbols and international scripts.</li>
-                    </ul>
+                    <li>
+                        <p><strong>HTML Versions: </strong>HTML has evolved over time, with HTML5 being the latest
+                            version.
+                            It introduced new features like support for multimedia elements (video, audio), improved
+                            accessibility, and modern APIs.</p>
+                    </li>
+
+                    <!-- Key Concepts Ends -->
+
+                    <p>HTML forms the foundation of web development, and it's often used allongside <b>CSS (Cascading
+                            Style
+                            Sheets)</b> for styling and <b>JavaScript</b> for interactivity.</p>
                 </ol>
-            </p>
-            <p>We will be later talking about these tags and elements in deep that has been used in this example.</p>
-            </li><hr>
-
-            <li>
-                <p><strong>Elements: </strong>An <b>HTML element</b> consists of an opening tag, content, and a closing tag. For example:</p>
-                <p>
-                    <code>&lt;p&gt;This is paragraph.&lt;p&gt;</code> represents a paragraph element.
-                </p>
-            </li><hr>
-
-            <li>
-                <p><strong>Semantic HTML: </strong>HTML 5 introduced <b>semantic elements</b> that provide meaning about the content, such as:</p>
-                <p>
-                    <ul>
-                        <li><code>&lt;header&gt;</code> defines a header section.</li>
-                        <li><code>&lt;footer&gt;</code> defines a footer section.</li>
-                        <li><code>&lt;article&gt;</code> defines an independent piece of content, such as a blog post.</li>
-                    </ul>
-                </p>
-            </li><hr>
-            
-            <li><p><strong>HTML Versions: </strong>HTML has evolved over time, with HTML5 being the latest version. It introduced new features like support for multimedia elements (video, audio), improved accessibility, and modern APIs.</p></li>
-            <p>HTML forms the foundation of web development, and it's often used allongside <b>CSS (Cascading Style Sheets)</b> for styling and <b>JavaScript</b> for interactivity.</p>
+            </label>
         </ol>
-    </label><hr>
-    </ol>
+    </section>
 
-    </body>
+    <section id="Section2">
+        <hr>
+        <h3><u>HTML Basics</u></h3>
+        <hr>
+
+        <h2>HTML Documents</h2>
+        <ul>
+            <li>All HTML documents must start with a document type declaration: <code>&lt;!DOCTYPE html&gt;</code></li>
+            <li>Every html douments begins with <code>&lt;html&gt;</code> and ends with &lt;/html&gt;</code>. This is
+                the root element of every HTML document. Everything inside this tag is considered part of the HTML
+                document.</li>
+            <li>There is another tag <code>&lt;head&gt;</code> which contains meta-information about the HTML document
+                that is not visible to the user. It typically includes things like:</li>
+            <ul style="list-style-type: circle;">
+                <li>The document's title (<code>&lt;title&gt;</code>)</li>
+                <li>Meta tags like charset, viewport, etc.</li>
+                <li>Links to external files like CSS stylesheets or JavaScript files.</li>
+            </ul>
+            <li><code>&lt;body&gt;</code> contains the actula content that will be displayed on the webpage (headings,
+                paragraphs, images, links, etc.)</li>
+        </ul>
+        <hr>
+
+        <h2>Key points about <code>&lt;!DOCTYPE&gt;</code></h2>
+        <ul>
+            <p>
+                <li><b>Location: </b>It should be placed <b>at the very beginning</b> of the document, before the
+                    <code>&lt;html&gt</code> tag.
+                </li>
+            </p>
+            <p>
+                <li><b>Not case sensitive: </b>The declaration can be written in any case, but it is commonly written in
+                    uppercase as you have already seen.</li>
+            </p>
+            <p>
+                <li><b>HTML5 Simplicity: </b>Unlike earlier version of HTML (like HTML 4.01 or XHTML), which required
+                    longer
+                    declarations pointing to DTDs (Document Type Definitons - are a set of rules or pecifications that
+                    define the structure and allowed elements and attributes for an HTML or XML document.), the HTML
+                    <code>&lt;!DOCTYPE&gt; is much simpler.</code>
+                    <ul>
+                        <p>For example HTML 4.01 DTD was like the following:</p>
+                        <li>DTD for HTML 4.01 Strict:
+                            <code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</code>
+                        </li>
+                        <li>DTD for HTML 4.01 Transitional:
+                            <code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;</code>
+                        </li>
+                    </ul>
+                </li>
+            </p>
+            <p>
+                <li><b>Purpose: </b>It triggers the browser to render the page in standards-compliant mode
+                    (Standards-compliant mode is the rendering mode where the browser follows the official web standards
+                    as
+                    defined by the World Wide Web Consortium (W3C) for HTML, CSS, and other web technologies.), rather
+                    than
+                    "quirks mode (Quirks mode is a rendering mode used by browsers for backward compatibility with older
+                    web
+                    pages that were created before modern web standards were established.)" (which emulates older
+                    browsers'
+                    behavior).</li>
+            </p>
+        </ul>
+    </section>
+
+    <section id="Section3">
+        <hr>
+        <h3><u>HTML Elements</u></h3>
+        <hr>
+        <p>
+            The HTML element is a fundamental building block of an HTML document. It is a combination of an <b>opening tag, content, </b> and a <b>closing tag</b> (optional for some elements).
+        </p>
+
+        <p>
+            An HTML element consists of following parts:
+            <ol type="i">
+                <li><b>Opening Tag: </b>Marks the beginning of the element. It is enclosed in angle brackets, e.g., <code>&lt;tag-name&gt;</code>.</li>
+                <li><b>Content: </b>The actual content enclosed by the element.</li>
+                <li><b>Closing Tag: </b>Marks the end of the element. It is similar to the opening tag but includes a forward slash (/), e.g., <code>&lt;/tag-name&gt;</code></li>
+            </ol>
+        </p>
+        <p style="text-align: center;">
+            <code>&lt;tag-name&gt;Content goes here&lt;;tag-name&gt;</code>
+        </p>
+        <hr>
+        <h2>Types of HTML Elements</h2>
+        <p>
+            <ol>
+                <p><li><strong>Block-level Elements: </strong>these elements create a block on the page, often causing content to appear on a new line. They typically define larger sections of a page, like paragraphs or divider. Example: <code>&lt;div&gt;, &lt;p&gt;, &lt;h1&gt;, &lt;ul&gt;.</code></li></p>
+                <p><li><strong>Inline Elements: </strong>These elements do not start on a new line; they flow within the content. They usually define smaller sections, like text or links. Examples: <code>&lt;span&gt;, &lt;strong&gt;, &lt;em&gt;.</code></li></p>
+                <p><li><strong>Self-closing Elements: </strong>These elements don't have a closing tag. Instead, they are self-contained in the opening tag. Examples: <code>&lt;img&gt;, &lt;br&gt;, &lt;hr&gt;, &lt;input&gt;, &lt;meta&gt;</code></li></p>
+            </ol>
+        </p>
+        <hr>
+        <h2>Common HTML Elements</h2>
+        <p>
+            <ol>
+                <p><li><code>&lt;html&gt;: </code> Represents the entire HTML document.</li>
+                <p style="text-align: center;">
+                    <pre><code>
+                        &lt;html&gt;
+                            &lt;!-- Content goes here --&gt;
+                        &lt;/html&gt;
+                    </code></pre>
+                </p>
+                </p>
+                <p><li><code>&lt;head&gt;: </code>Contains meta-information about the document, such as title, character set, and links to stylesheets ro scripts.</li>
+                <p>
+                    <pre><code style="text-align: center;">
+                        &lt;head&gt;
+                            &lt;meta charset="UTF-8"&gt;
+                            &lt;title&gt;Page Title&lt;/title&gt;
+                        &lt;/head&gt;
+                    </code></pre>
+                </p>
+                <p><li><code>&lt;title&gt;: </code>Specifies the title of the web page, whcih appears in the browser's title bar or tab.</li>
+                <p>
+                    <pre><code style="text-align: center;">
+                        &lt;title&gt;My Webpage&lt;/title&gt;
+                    </code></pre>
+                </p>
+
+                <p>
+                    <li><code>&lt;body&gt;: </code>Contains the content of the web page, such as text, images, links, etc.</li>
+                    <p><pre><code style="text-align: center">
+                        &lt;body&gt;
+                            &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+                            &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+                        &lt;/body&gt;
+                    </code></pre>
+                </p></p>
+
+                <p><li><code>&lt;h1&gt; to &lt;h6&gt;: </code>Define headings of different levels/size. &lt;h1&gt; is the highest (most important) level, and &lt;h6&gt; is the lowest.</li>
+                <p>
+                    <pre><code style="text-align: center;">
+                        &lt;h1&gt;This is a heading level 1&lt;/h1&gt;
+                        &lt;h2&gt;This is a heading level 2&lt;/h2&gt;
+                    </code></pre>
+                </p>
+                </p>
+
+                <p><li><code>&lt;p&gt;: </code>Defines a paragraph.</li>
+                <p>
+                    <pre><code style="text-align: center;">
+                        &lt;p&gt;This is a paragraph of text.&lt;p&gt;
+                    </code></pre>
+                    </p>
+                </p>
+
+                <p>
+                    <li><code>&lt;a&gt;: </code>Defines a hyperlink.</li>
+                    <p>
+                        <pre><code style="text-align: center;">
+                            &lt;a href="https://www.example.com"&gt;Click here&lt;/a&gt;
+                        </code></pre>
+                    </p>
+                </p>
+
+                <p>
+                    <li><code>&lt;ul&gt; and &lt;ol&gt;: </code>Define unordered (bulleted) and ordered (numbered) lists, repectively.</li>
+                    <p>
+                        <pre><code style="text-align: center;">
+                            &lt;ul&gt;
+                                &lt;li&gt;Item 1&lt;/&gt;
+                                &lt;li&gt;Item 2&lt;/&gt;
+                            &lt;/ul&gt;
+
+                            &lt;ol&gt;
+                                &lt;li&gt;First Item&lt;/&gt;
+                                &lt;li&gt;Second Item&lt;/&gt;
+                            &lt;/ol&gt;
+                        </code></pre>
+                    </p>
+                </p>
+                
+                <p>
+                    <li><code>&lt;img&gt;: </code>Embeds an image in the document. It's self-closing and requires an <code>src</code> attribute for the image source.</li>
+                    <p>
+                        <pre><code style="text-align: center;">
+                            &lt;img src="image.jpg" alt="Description of image"&gt;
+                        </code></pre>
+                    </p>
+                </p>
+
+                <p>
+                    <li><code>&lt;div&gt;: </code>A generic container element, often used for grouping or styling content.</li>
+                    <p>
+                        <pre><code style="text-align: center;">
+                            &lt;div&gt;
+                                &lt;p&gt;This is inside a div element.&lt;/p&gt;
+                            &lt;/div&gt;
+                        </code></pre>
+                    </p>
+                </p>
+
+                <p>
+                    <li><code>&lt;span&gt;: </code>An inline container used to style a part of the content without affecting its layout.</li>
+                    <p>
+                        <pre><code style="text-align: center;">
+                            &lt;span style="color: red;"&gt;<p style="text-decoration-color: red">This is red text.</p>&lt;/span&gt;
+                        </code></pre>
+                    </p>
+                </p>
+
+                <p>
+                    <li><code>&lt;form&gt;: </code>Defines an HTML form for collecting user input.</li>
+                    <p>
+                        <pre><code style="text-align: center;">
+                            &lt;form action="/submit" method="POST"&gt;
+                                &lt;input type="text" name="username"&gt;
+                                &lt;input type="submit" value="Submit"&gt;
+                            &lt;/form&gt;
+                        </code></pre>
+                    </p>
+                </p>
+
+                <p>
+                    <li><code>&lt;table&gt;: </code>Defines a table. Inside it, your can have <code>&lt;tr&gt;</code> (table rows), <code>&lt;td&gt;</code> (table data cells), and <code>&lt;th&gt;</code> (table header cells).</li>
+                    <p>
+                        <pre><code style="text-align: center;">
+                            &lt;table&gt;
+                                &lt;tr&gt;
+                                    &lt;th&gt;Header 1&lt;/th&gt;
+                                    &lt;th&gt;Header 2&lt;/th&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;Data 1&lt;/td&gt;
+                                    &lt;td&gt;Data 2&lt;td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                        </code></pre>
+                    </p>
+                </p>
+            </ol>
+        </p>
+    </section>
+</body>
+
 </html>
