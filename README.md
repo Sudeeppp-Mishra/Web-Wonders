@@ -1,5 +1,4 @@
 # Web Development Learning Repo
-
 This repository contains my learning projects for Web Development. It includes simple HTML projects (that I used for practicing my skills), and will later include CSS and JavaScript projects as I progress.
 
 ## Installation
