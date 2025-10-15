@@ -1,8 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--
+    1. <meta charset="UTF-8">
+
+    	•	charset → short for character set
+	    •	It tells the browser which character encoding system to use.
+	    •	UTF-8 is the most common — it supports letters, symbols, emojis, and almost all languages.
+
+        Think of it like:
+
+        “Hey browser, here’s the dictionary of characters you’ll need to display my page properly!”
+    -->
     <meta charset="UTF-8">
+
+    <!--
+    2. <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    	•	http-equiv → acts like an HTTP header instruction for the browser.
+	    •	"X-UA-Compatible" is specifically for Internet Explorer (IE) — it tells it to use the latest rendering engine.
+	    •	content → gives the value for the instruction above.
+	    •	"IE=edge" means use the newest and best version possible of IE’s engine.
+
+        Think of it like:
+
+        “IE, please behave like a modern browser — don’t use old, broken modes!”
+    -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--
+    3. <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    
+    	•	name → gives a label for what kind of information the meta tag provides.
+        •	Here it’s "viewport", meaning “information about the screen and display area.”
+        •	content → provides the actual settings.
+        •	width=device-width → the webpage should match the width of the device (so it looks right on phones, tablets, etc.).
+        •	initial-scale=1.0 → sets the zoom level (1.0 means 100%, no zoom in or out).
+    -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
