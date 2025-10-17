@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+#p1{
+    color: tomato
+}
+
+#p2{
+    color: rgb(103,143,207); /* we can also use RGB() values I will suggest u using a color picker to find the rgb() values */
+}
+
+#p3{
+    color: #67cf91; /* we can also use HEX values */
+}
+
+#p4{
+    color: hsl(0, 75%, 65%) /* we can also use HSL values */
+}
