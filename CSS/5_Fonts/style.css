@@ -1,0 +1,18 @@
+h1{
+    font-family: Verdana, arial; /* we can use many fonts for backup by separating with comma cuz sometime all browsers don't support the fond we use so I choose arial as backup if anotehr dont work and all these fonts are known as fallback fonts */
+}
+
+p{
+    font-family: "lucida console", "courier new"; /* if we have a space in famiy font name then we can use double quotes */
+    font-size: 1em; /* we can use px or em as unit and 1 em means 100%(normal), 1.1em means 110%, 0.5 means 50% and likewise */
+    font-weight: bold; /* it can be normal or bold or more*/
+    font-style: italic; 
+}
+
+pre{
+    font-family: Merienda, arial;
+}
+
+#pre1{
+    font-family: "Permanent Marker", arial;
+}

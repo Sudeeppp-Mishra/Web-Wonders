@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Merienda;
+    src: url(fonts/Merienda-Light.ttf);
+}
+
+@font-face {
+    font-family: mvf;
+    src: url(fonts/Merienda-VariableFont_wght.ttf);
+}
+h1{
+    font-family: Merienda;
+}
+p{
+    font-family: mvf;
+}
