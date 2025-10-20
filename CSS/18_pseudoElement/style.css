@@ -1,0 +1,35 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic
+}
+
+p::first-line{
+    background-color: lightcyan;
+}
+
+p::selection{ /* when we select using mouse*/
+    color: greenyellow;
+    background-color: grey;
+}
+
+#fruit li::before{
+    content: "✨";
+}
+
+#apple::after{
+    content: "🍎";
+}
+
+#orange::after{
+    content: "🍊";
+}
+
+#banana::after{
+    content: "🍌";
+}
+
+#fruit li::marker{
+    content: "✔";
+    color: lightblue;
+    font-size: 120%;
+}
