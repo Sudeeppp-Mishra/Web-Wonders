@@ -1,0 +1,17 @@
+a:link{
+    color: tomato;
+}
+
+a:hover{
+    color: rgb(88, 88, 173);
+    font-size: 150%;
+}
+
+a:active{ /* this is when u left click on link */
+    color: aqua;
+    font-size: small;
+}
+
+a:visited{
+    color: gray;
+}

@@ -1,0 +1,11 @@
+/* li:hover{
+    background-color: yellow;
+}
+
+li:not(:hover){
+    background-color: lightgrey;
+} */
+
+li:nth-child(even){ /* write no. or odd or even or 3n, 4n for every 3rd 4th element or even (3n+2) kinda that */
+    background-color: lightblue;
+}
