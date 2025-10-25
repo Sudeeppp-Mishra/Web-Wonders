@@ -1,0 +1,32 @@
+.dropdown{
+    display: inline-block; /*this is for only showing the menu when I put cursur to the button else as <div> is block level even if we put our cursor to white spaces it shows it*/
+}
+.dropdown button{
+    background-color: lightgray;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    background-color: aquamarine;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: bisque;
+}
+.dropdown a:hover{
+    background-color: rgb(122, 186, 165);
+}
