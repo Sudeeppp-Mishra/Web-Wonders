@@ -1,0 +1,36 @@
+.icons{
+    text-align: center;
+}
+
+.fa-regular.fa-house.fa-5x{ /* here copy the whole class name and replace the spaces with . */
+    color: hsl(0, 0%, 83%);
+}
+.fa-regular.fa-house.fa-5x:hover{ 
+    color: hsl(0, 0%, 23%);
+}
+
+.fa-brands.fa-square-x-twitter.fa-5x {
+    color: hsl(0, 0%, 0%);
+}
+.fa-brands.fa-square-x-twitter.fa-5x:hover {
+    color: hsl(0, 0%, 50%);
+}
+
+.fa-brands.fa-youtube.fa-5x{
+    color: hsl(0, 100%, 50%);
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: hsl(0, 100%, 65%);
+}
+
+.fa-brands.fa-instagram.fa-5x{
+    color: hsl(9, 72%, 58%);
+}
+.fa-brands.fa-instagram.fa-5x:hover{
+    color: hsl(9, 72%, 28%);
+}
+
+.icons a{
+    text-decoration: none;
+    margin: 10px;
+}
