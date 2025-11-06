@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    border: 5px solid black;
+    height: 90vh;  
+
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: hsl(0, 71%, 77%);
+    align-self: center; /* align-self is used for individual elements */
+}
+#box2{
+    background-color: hsl(55, 71%, 77%);
+    align-self: flex-end;
+    order: 1;
+}
+#box3{
+    background-color: hsl(125, 71%, 77%);
+    align-self: flex-start;
+}
+#box4{
+    background-color: hsl(254, 76%, 81%);
+    align-self: self-end;
+    order: -1;
+}
