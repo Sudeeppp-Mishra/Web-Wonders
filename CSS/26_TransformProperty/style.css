@@ -9,8 +9,10 @@ body{
     text-align: center;
     background-color: lightblue;
     
-    transform: translate(50%, 50%); /* we can use -ve or +ve px or % */
-    transform: rotateZ(45deg);
-    /*transform: scaleX(1.1);*/
-    transform: skew(130deg);
+    /* transform: translate(50%, 50%); /* we can use -ve or +ve px or % */ 
+    /*transform: rotateZ(45deg);
+    transform: scaleX(1.1);
+    transform: skew(130deg); */
+
+    transform: translateX(100%) rotateZ(90deg) scale(0.5);
 }
