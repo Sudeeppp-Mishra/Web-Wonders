@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: lightblue;
+    
+    /* transform: translate(50%, 50%); /* we can use -ve or +ve px or % */ 
+    /*transform: rotateZ(45deg);
+    transform: scaleX(1.1);
+    transform: skew(130deg); */
+
+    /* transform: translateX(100%) rotateZ(90deg) scale(0.5); These commented scripts were used for #box1 when we only had one box1 div element*/
+
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
+}
+
+#box1{
+    background-color: hsl(161, 49%, 79%);
+}
+#box2{
+    background-color: hsl(135, 50%, 79%);
+}
+#box3{
+    background-color: hsl(59, 50%, 79%);
+}
