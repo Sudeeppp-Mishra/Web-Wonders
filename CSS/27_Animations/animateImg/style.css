@@ -1,0 +1,11 @@
+img{
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes slideLeft{
+    from{transform: translateX(300%)}
+}
